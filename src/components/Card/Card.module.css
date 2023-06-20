@@ -1,0 +1,18 @@
+.gallery img{
+    height: 400px;
+    width: 400px;
+    margin: 1em 0;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+ .gallery img:hover {
+    opacity:50%;
+    transition:0.3s;
+    filter:grayscale(50%);
+    cursor: pointer;
+  }
+  @media screen and (max-width:800px) {
+    .gallery{
+      grid-column: span 12;
+    }
+  }

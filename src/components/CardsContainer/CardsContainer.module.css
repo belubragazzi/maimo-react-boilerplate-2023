@@ -1,0 +1,12 @@
+.gallery_art {
+    padding-top: 1em;
+  }
+.gallery_container{
+    
+    text-align: center;
+    justify-content: center;
+  }
+.gallery_container article {
+    padding: 2em;
+    display: inline;
+  }

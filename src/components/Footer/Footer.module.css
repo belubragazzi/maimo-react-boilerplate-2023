@@ -1,0 +1,21 @@
+.hello {
+    background: #212529;
+    padding: 30px;
+    margin-top: 20px;
+    display: flex;
+    color: #F8DCC3;
+    justify-content: center;
+}
+.hello ul, h4, a{
+    color: #F8DCC3;
+    font-size: 16px;
+    padding: 0;
+    margin: 0 0.3rem;;
+  }
+.hello ul {
+    display: flex;
+    justify-content: center;
+}
+.hello li a:hover{
+    opacity: 0.6;
+  }
