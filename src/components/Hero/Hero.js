@@ -1,8 +1,12 @@
 import React from 'react'
+import styles from './Hero.module.css';
 
 const Hero = () => {
   return (
-    <div>Hero</div>
+  <article className={styles.hero_container}>
+    <a href='#'> <img src="/assets/name.svg" alt="Logo" /> </a>
+    
+  </article>
   )
 }
 

@@ -1,0 +1,49 @@
+.about_container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.sirena{
+    min-height: 100%;
+    width: 100%; 
+    background-image: url(/public/assets/sirenita.png) ;
+    background-repeat: no-repeat;
+    background-size: 35em;
+    background-attachment: fixed; 
+  }
+  .black{
+    background-color: #212529;
+    padding: 1em 0;
+  }
+  .black h2 {
+    color: #F8DCC3;
+    width: 60%;
+    text-align: left;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+  .about_container p{
+    width: 70%;
+    background-color: #F8DCC3;
+    border-radius: 25px;
+    margin: 0 auto;
+    padding: 2em;
+  }
+  @media screen and (max-width:800px) {
+    .sirena{
+      min-height: 400px;
+      background-size: cover;
+    }
+    .about p{
+      width: 100%;
+    }
+    .black h2{
+      text-align: center;
+    }
+    .black{
+      padding: 1rem;
+      
+    } 
+    .about_container{
+      grid-template-columns:auto ;
+    }
+  }

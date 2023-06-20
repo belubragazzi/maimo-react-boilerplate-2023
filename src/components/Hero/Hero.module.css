@@ -1,0 +1,18 @@
+.hero_container {
+    background-image: url(/public/assets/fondo.jpg);
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.hero_container a img {
+    min-width: min-content;
+    background-color: black;
+    padding:1em;
+    padding-top: 1.75em;
+    box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.7);
+}
+  
