@@ -1,0 +1,38 @@
+.form_container{
+    text-align: center;
+    padding: 1em;
+    justify-content: center;
+  }
+
+button{
+    border:0.1em solid #212529;
+    background-color: #000;
+    color:#F8DCC3;
+    display: block;
+    max-width: 170px;
+    margin: auto;
+    margin-top: 2em;
+    padding: .9em 1em;
+    border-radius: 50px;
+  }
+button:hover{
+    transition: 0.3s;
+    border:0.1em solid #212529;
+    background-color: #F8DCC3;
+    color:#000;
+    display: block;
+    max-width: 170px;
+    margin: auto;
+    margin-top: 2em;
+    padding: .9em 1em;
+    border-radius: 50px;
+  }
+.form_control{
+    text-align: center;
+    background-color: transparent!important;
+    border: 2px solid #212529!important;
+    border-radius: 25px;
+    margin: 0.7em 0;
+    padding: 1em 5em;
+    font-family:'Nunito';
+  }

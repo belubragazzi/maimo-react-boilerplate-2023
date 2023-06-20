@@ -7,20 +7,17 @@ const Form = () => {
       <h2>Contac Us</h2>
             <div>
                 <form action="" >   
-                    <div class="col-md-6">
+                    <div className="col-md-6">
                         <div>
-                            <label for="">Nombre</label>
-                            <input class="form-control" type="text" placeholder="Ingresá tu nombre" /> 
+                            <input className={styles.form_control} type="text" placeholder="Ingresá tu nombre" /> 
                         </div>
                         <div>
-                            <label for="">Mail</label>
-                            <input class="form-control" type="email" placeholder="Ingresá tu mail" /> 
+                            <input className={styles.form_control} type="email" placeholder="Ingresá tu mail" /> 
                         </div>
                     </div>
                     <div>
                         <div>
-                            <label for="">Contanos tu idea</label>
-                            <textarea  placeholder="Describí tu idea, el diseño, si es a color o en negro, etc. " name="idea" id="consulta" class="form-control" rows="6"></textarea>
+                            <textarea  placeholder="Describí tu idea, el diseño, si es a color o en negro, etc. " name="idea" id="consulta" className={styles.form_control} rows="6"></textarea>
                         </div>
                     </div>
                     <button type="submit">Pedir Presupuesto</button>

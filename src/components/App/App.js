@@ -26,8 +26,6 @@ const App = () => {
         <Form />
 </Element>    
         <Footer />
-   
-
     </div>
   );
 };
